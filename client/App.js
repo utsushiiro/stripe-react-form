@@ -6,7 +6,7 @@ import CheckoutForm from "./CheckoutForm";
 
 const App = () => {
   return (
-    <StripeProvider apiKey="pk_test_12345">
+    <StripeProvider apiKey={STRIPE_API_KEY}>
       <Elements>
         <CheckoutForm />
       </Elements>
