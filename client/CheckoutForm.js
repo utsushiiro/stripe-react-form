@@ -6,7 +6,7 @@ import { Button, Form, FormGroup, Label, Container } from "reactstrap";
 class CheckoutForm extends React.Component {
   render() {
     return (
-      <Container>
+      <Container className="pt-4">
         <Form>
           <FormGroup>
             <Label>Card details</Label>
